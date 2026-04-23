@@ -80,3 +80,4 @@ Use `/nw-root-why`
 * [Jobs to Be Done: Theory to Practice](https://www.amazon.com/Jobs-be-Done-Theory-Practice/dp/0990576744)
 * [Mom Test methodology](https://tldv.io/blog/the-mom-test/)
 * [Five whys root cause analysis](https://web.archive.org/web/20221127052017/https://www.toyota-myanmar.com/about-toyota/toyota-traditions/quality/ask-why-five-times-about-every-matter)
+* [Mutation Testing](https://blog.cleancoder.com/uncle-bob/2016/06/10/MutationTesting.html)
