@@ -5,7 +5,7 @@ Using a language model to develop software can make you more efficient, but it c
 ## Principles
 
 * Constrain the AI to only give right answers (Make it work)
-* Reward code quality (Make it right)
+* Incentivize code quality (Make it right)
 * Enable optimization (Make it fast, cheap, memory efficient, more profitable, etc...)
 * Increase optionality (Make it more generally applicable, adaptable to new situations)
 
