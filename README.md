@@ -45,7 +45,7 @@ Use `/nw-discover` and/or `/nw-diverge`
 
 #### Worked Example — Tic-Tac-Toe
 
-A greenfield SPA built end-to-end through the full nWave flow (DISCOVER → DISCUSS → DESIGN → DISTILL → DELIVER → DEVOPS) as a methodology practice project. Zero-backend, accessible (WCAG 2.2 AA, axe-core enforced), functional-paradigm TypeScript with ports-and-adapters; pure core at 100% mutation kill rate (Stryker), DOM-entangled adapters covered by Playwright; bundle capped at 45 KB gzipped, deployed to GitHub Pages via a make-driven CI pipeline.
+A greenfield SPA built end-to-end through the full nWave flow (DISCOVER → DISCUSS → DESIGN → DEVOPS → DISTILL → DELIVER) as a methodology practice project. Zero-backend, accessible (WCAG 2.2 AA, axe-core enforced), functional-paradigm TypeScript with ports-and-adapters; pure core at 100% mutation kill rate (Stryker), DOM-entangled adapters covered by Playwright; bundle capped at 45 KB gzipped, deployed to GitHub Pages via a make-driven CI pipeline.
 
 * Repository: <https://github.com/dale-stewart/tic-tac-toe>
 * Live app: <https://dale-stewart.github.io/tic-tac-toe/>
