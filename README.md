@@ -1,11 +1,13 @@
 # AI Show & Tell
 
+Using a language model to develop software can make you more efficient, but it can also lead you down some dark alleys.  When engaging an LLM, consider that it needs what you need - a clear understanding of the problem to solve, methods that produce repeatable results, and a process that standardizes work and therefore reduces variance.
+
 ## Principles
 
 * Constrain the AI to only give right answers (Make it work)
 * Reward code quality (Make it right)
-* Enable optimization (Make it fast)
-* Increase optionality (Make it general)
+* Enable optimization (Make it fast, cheap, memory efficient, more profitable, etc...)
+* Increase optionality (Make it more generally applicable, adaptable to new situations)
 
 ```mermaid
 graph LR
@@ -14,7 +16,9 @@ graph LR
     C["Optimize"]
     D["Generalize"]
 
-    A --> B --> C --> D
+    A --> B
+    B --> C
+    B --> D
 ```
 
 ## Strategies
@@ -28,7 +32,7 @@ graph LR
 
 * Use [nWave](<https://nwave.ai/>)
 * Use `make` as a project-level CLI
-* Use pre-commit hooks to prevent bad commits
+* Use pre-commit and pre-push hooks to prevent escaped defects
 * Use code quality metrics as feedback
 * Use code coverage and mutation testing to manage test quality
 * Ensure README.md is complete and up to date
@@ -76,4 +80,3 @@ Use `/nw-root-why`
 * [Jobs to Be Done: Theory to Practice](https://www.amazon.com/Jobs-be-Done-Theory-Practice/dp/0990576744)
 * [Mom Test methodology](https://tldv.io/blog/the-mom-test/)
 * [Five whys root cause analysis](https://web.archive.org/web/20221127052017/https://www.toyota-myanmar.com/about-toyota/toyota-traditions/quality/ask-why-five-times-about-every-matter)
-
